@@ -2772,8 +2772,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 806a73b742b65a643afa17ecc2634c77, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Camera1: {fileID: 0}
-  Camera2: {fileID: 0}
+  ShowTopMostFoldoutHeaderGroup: 1
+  playerCamera: {fileID: 0}
 --- !u!4 &1432931199
 Transform:
   m_ObjectHideFlags: 0

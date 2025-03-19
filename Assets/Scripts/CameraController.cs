@@ -1,26 +1,19 @@
-using System.Collections;
-using System.Collections.Generic;
+using Unity.Netcode;
 using UnityEngine;
 
-public class CameraController : MonoBehaviour
+public class CameraController : NetworkBehaviour
 {
-    public Camera Camera1;
-    public Camera Camera2;
+    public GameObject playerCamera; 
 
-    
-    void Start()
+    public override void OnNetworkSpawn()
     {
-        Camera1.gameObject.SetActive(true);
-        Camera2.gameObject.SetActive(false);
-        
-    }
-
-    void Update()
-    {
-        if(Input.GetKeyDown(KeyCode.C))
+        if (IsOwner)
         {
-            Camera1.gameObject.SetActive(!Camera1.gameObject.activeSelf);
-            Camera2.gameObject.SetActive(!Camera2.gameObject.activeSelf);
-        }        
+            playerCamera.SetActive(true); 
+        }
+        else
+        {
+            playerCamera.SetActive(false);
+        }
     }
 }
