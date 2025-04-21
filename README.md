@@ -1,28 +1,24 @@
 # 🚗 Speed_Zone
 
-**Speed_Zone**, Unity ile geliştirilmiş bir **multiplayer yarış oyunu denemesidir**.  
-Bu proje, Unity'nin **Netcode for GameObjects** sistemi kullanılarak çok oyunculu oyun geliştirme üzerine bir deneme olarak hazırlanmıştır.
+**Speed_Zone** is a **multiplayer racing game prototype** developed with Unity.  
+This project was created as an experiment to learn and implement multiplayer functionality using Unity's **Netcode for GameObjects** system.
 
-## 🎮 Özellikler
+## 🎮 Features
 
-- Gerçek zamanlı çok oyunculu oynanış (Multiplayer denemesi)
-- Hız kurallarına göre tasarlanmış basit bir yarış sistemi
-- Unity Netcode altyapısıyla oyuncular arası bağlantı
+- Real-time multiplayer gameplay (experimental)
+- Simple racing mechanics with speed limit rules
+- Player synchronization using Unity Netcode
 
-## 🖼️ Görseller
+## 🖼️ Screenshots
 
-![Oyun Görseli](Speed_Zone_SS.png) <!-- Buraya görselin linkini ekleyebilirsin -->
+![Game Screenshot](Speed_Zone_SS.png) <!-- Buraya görselin linkini ekleyebilirsin -->
 
-## 🔧 Kullanılan Teknolojiler
+## 🔧 Technologies Used
 
 - Unity
 - Netcode for GameObjects (Unity Multiplayer)
 - C#
 
-## 📝 Not
+## 📝 Note
 
-Bu proje, **Unity'de multiplayer sistemleri öğrenmek amacıyla geliştirilmiş basit bir prototiptir.**
-
----
-
-> Geri bildirim ve katkılarınız memnuniyetle karşılanır!
+This is a simple **prototype project** built for learning purposes to explore Unity’s multiplayer capabilities.
